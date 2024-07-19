@@ -1,5 +1,4 @@
 import { useState } from "react";
-import logoImg from "../assets/logo.png"
 import { close, menu } from "../assets";
 import { navLinks } from "../constants";
 
@@ -9,7 +8,7 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <img src={logoImg} alt="hoobank" className="w-[40px] h-[40px]" />
+      
       
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
